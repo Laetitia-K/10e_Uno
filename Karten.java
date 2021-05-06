@@ -1,19 +1,19 @@
 
 /**
- * Beschreiben Sie hier die Klasse SPIELFELD.
+ * Beschreiben Sie hier die Klasse Karten.
  * 
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class SPIELFELD
+public class Karten
 {
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     private int x;
 
     /**
-     * Konstruktor für Objekte der Klasse SPIELFELD
+     * Konstruktor für Objekte der Klasse Karten
      */
-    public SPIELFELD()
+    public Karten()
     {
         // Instanzvariable initialisieren
         x = 0;
