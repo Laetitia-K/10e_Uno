@@ -1,5 +1,5 @@
 
-class SPIELER1
+class SPIELER
 // hand //
 {
    
