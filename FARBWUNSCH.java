@@ -1,3 +1,4 @@
+
 class FARBWUNSCH extends KARTEN
 {
     

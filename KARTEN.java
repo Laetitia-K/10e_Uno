@@ -1,8 +1,30 @@
 
 
 class KARTEN
-// blau, grü, gelb, rot, 1-9, richtungswechsel, aussetzen, 2+, 4+, wünsche //
-
 {
+FARBWUNSCH farbwunsch;
+
+AUSSETZEN arot;
+AUSSETZEN agelb;
+AUSSETZEN agruen;
+AUSSETZEN ablau;
+
+RICHTUNGSWECHSEL rrot;
+RICHTUNGSWECHSEL rgelb;
+RICHTUNGSWECHSEL rgruen;
+RICHTUNGSWECHSEL rblau;
+
+ZWEIZIEHEN zrot;
+ZWEIZIEHEN zgelb;
+ZWEIZIEHEN zgruen;
+ZWEIZIEHEN zblau;
+
+VIERZIEHEN vierziehen;
+
+ KARTEN()
+    {
+        
+    }
+    
 }
 
