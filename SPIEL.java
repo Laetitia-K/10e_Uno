@@ -9,9 +9,6 @@ class SPIEL
     SPIELER spieler3;
     SPIELER spieler4;
     
-    {
-        
-    }
-    
+
     
 }
