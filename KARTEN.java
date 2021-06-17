@@ -82,7 +82,6 @@ KLASSISCHEKARTEN gruen9;
         
         vierziehen = new VIERZIEHEN();
         
-        //fehlt noch klassische karten //
         blau1 = new KLASSISCHEKARTEN();
         blau2 = new KLASSISCHEKARTEN();
         blau3 = new KLASSISCHEKARTEN();
