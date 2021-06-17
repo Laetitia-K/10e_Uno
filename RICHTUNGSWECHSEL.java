@@ -1,6 +1,4 @@
 
-
-
 class RICHTUNGSWECHSEL extends KARTEN
 {
      

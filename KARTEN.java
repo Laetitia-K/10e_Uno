@@ -83,6 +83,33 @@ KLASSISCHEKARTEN gruen9;
         vierziehen = new VIERZIEHEN();
         
         //fehlt noch klassische karten //
+        blau1 = new KLASSISCHEKARTEN();
+        blau2 = new KLASSISCHEKARTEN();
+        blau3 = new KLASSISCHEKARTEN();
+        blau4 = new KLASSISCHEKARTEN();
+        blau5 = new KLASSISCHEKARTEN();
+        blau6 = new KLASSISCHEKARTEN();
+        blau7 = new KLASSISCHEKARTEN();
+        blau8 = new KLASSISCHEKARTEN();
+        blau9 = new KLASSISCHEKARTEN(); 
+        rot1 = new KLASSISCHEKARTEN (); 
+        rot2 = new KLASSISCHEKARTEN (); 
+        rot3 = new KLASSISCHEKARTEN (); 
+        rot4 = new KLASSISCHEKARTEN (); 
+        rot5 = new KLASSISCHEKARTEN (); 
+        rot6 = new KLASSISCHEKARTEN (); 
+        rot7 = new KLASSISCHEKARTEN (); 
+        rot8 = new KLASSISCHEKARTEN (); 
+        rot9 = new KLASSISCHEKARTEN (); 
+        gruen1 = new KLASSISCHEKARTEN(); 
+        gruen2 = new KLASSISCHEKARTEN(); 
+        gruen3 = new KLASSISCHEKARTEN(); 
+        gruen4 = new KLASSISCHEKARTEN(); 
+        gruen5 = new KLASSISCHEKARTEN(); 
+        gruen6 = new KLASSISCHEKARTEN();  
+        gruen7 = new KLASSISCHEKARTEN(); 
+        gruen8 = new KLASSISCHEKARTEN();  
+        gruen9 = new KLASSISCHEKARTEN(); 
         
         
         
