@@ -63,6 +63,12 @@ class SPIEL
     {
         
     }
+    
+    void hinlegen()
+    {
+        
+    }
+}
 
     
-}
+
