@@ -101,7 +101,15 @@ KLASSISCHEKARTEN gruen9;
         rot7 = new KLASSISCHEKARTEN(); 
         rot8 = new KLASSISCHEKARTEN(); 
         rot9 = new KLASSISCHEKARTEN(); 
-        
+        gelb1 = new KLASSISCHEKARTEN();
+        gelb2 = new KLASSISCHEKARTEN(); 
+        gelb3 = new KLASSISCHEKARTEN();
+        gelb4 = new KLASSISCHEKARTEN(); 
+        gelb5 = new KLASSISCHEKARTEN();
+        gelb6 = new KLASSISCHEKARTEN(); 
+        gelb7 = new KLASSISCHEKARTEN(); 
+        gelb8 = new KLASSISCHEKARTEN(); 
+        gelb9 = new KLASSISCHEKARTEN(); 
         gruen1 = new KLASSISCHEKARTEN(); 
         gruen2 = new KLASSISCHEKARTEN(); 
         gruen3 = new KLASSISCHEKARTEN(); 
