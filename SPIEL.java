@@ -9,6 +9,7 @@ class SPIEL
     SPIELER spieler3;
     SPIELER spieler4;
     
+
     FARBWUNSCH farbwunsch;
 
     AUSSETZEN arot;
@@ -62,5 +63,6 @@ class SPIEL
     {
         
     }
+
     
 }
