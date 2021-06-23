@@ -1,4 +1,9 @@
 
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random; 
+import java.util.ArrayList;
+
 
 class SPIEL
 // Kontrollsystem// 
