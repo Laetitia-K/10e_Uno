@@ -2,6 +2,8 @@
 class SPIELER
 // hand //
 {
+    int spieleranzahl = 4;
+    
     KARTENSTAPEL spielerhand1;
     KARTENSTAPEL spielerhand2;
     KARTENSTAPEL spielerhand3;
