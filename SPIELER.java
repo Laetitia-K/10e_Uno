@@ -1,4 +1,7 @@
 
+
+import java.util.Random; 
+
 class SPIELER
 // hand //
 {
@@ -14,6 +17,12 @@ class SPIELER
         spielerhand2 = new KARTENSTAPEL();
         spielerhand3 = new KARTENSTAPEL();
         spielerhand4 = new KARTENSTAPEL();
+    }
+    
+    
+    void KartenGeben()
+    {
+       System.out.println("test"); 
     }
     
     void spielerhand1()
