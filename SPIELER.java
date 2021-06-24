@@ -16,6 +16,9 @@ class SPIELER
         spielerhand4 = new KARTENSTAPEL();
     }
     
+    
+   
+    
     void spielerhand1()
     {
         

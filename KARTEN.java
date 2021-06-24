@@ -1,4 +1,5 @@
 
+import java.util.ArrayList;
 
 class KARTEN
 {
@@ -60,8 +61,11 @@ class KARTEN
     KLASSISCHEKARTEN gruen7;
     KLASSISCHEKARTEN gruen8;
     KLASSISCHEKARTEN gruen9;
+    
+    ArrayList<String> Karten = new ArrayList<String>();
+    
 
-KARTEN()
+    KARTEN()
     {
         farbwunsch = new FARBWUNSCH();
         
@@ -122,6 +126,49 @@ KARTEN()
         
         
         
+    }
+    
+    void Kartendatenbank()
+    {
+        String Kartendatenbank[] = new String [35];
+        
+        Kartendatenbank [0] = "rot1";
+        Kartendatenbank [1] = "rot2";
+        Kartendatenbank [2] = "rot3";
+        Kartendatenbank [3] = "rot4";
+        Kartendatenbank [4] = "rot5";
+        Kartendatenbank [5] = "rot6";
+        Kartendatenbank [6] = "rot7";
+        Kartendatenbank [7] = "rot8";
+        Kartendatenbank [8] = "rot9";
+        Kartendatenbank [9] = "gelb1";
+        Kartendatenbank [10] = "gelb2";
+        Kartendatenbank [11] = "gelb3";
+        Kartendatenbank [12] = "gelb4";
+        Kartendatenbank [13] = "gelb5";
+        Kartendatenbank [14] = "gelb6";
+        Kartendatenbank [15] = "gelb7";
+        Kartendatenbank [16] = "gelb8";
+        Kartendatenbank [17] = "gelb9";
+        Kartendatenbank [18] = "gruen1";
+        
+        Kartendatenbank [19] = "gruen2";
+        Kartendatenbank [20] = "gruen3";
+        Kartendatenbank [21] = "gruen4";
+        Kartendatenbank [22] = "gruen5";
+        Kartendatenbank [23] = "gruen6";
+        Kartendatenbank [24] = "gruen7";
+        Kartendatenbank [25] = "gruen8";
+        Kartendatenbank [26] = "gruen9";
+        Kartendatenbank [27] = "blau1";
+        Kartendatenbank [28] = "blau2";
+        Kartendatenbank [29] = "blau3";
+        Kartendatenbank [30] = "blau4";
+        Kartendatenbank [31] = "blau5";
+        Kartendatenbank [32] = "blau6";
+        Kartendatenbank [33] = "blau7";
+        Kartendatenbank [34] = "blau8";
+        Kartendatenbank [35] = "blau9";
         
     }
 }

@@ -73,6 +73,12 @@ class SPIEL
     {
         
     }
+    
+     void amZug()
+    {
+        
+        
+    }
 }
 
     
