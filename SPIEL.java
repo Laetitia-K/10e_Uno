@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.ArrayList;
 
 
-class SPIEL
+class SPIEL 
 // Kontrollsystem// 
 // farben, nummern, uno gesagt, spieler skipp, ziehen //
 {
@@ -64,12 +64,36 @@ class SPIEL
         
     }
     
+    void spielbeginn()
+    {
+        
+        {
+            
+        }
+        
+    }
+    
+    void nimmObersteKarte()
+    {
+        
+    }
+    
+    void zeigeKarte()
+    {
+        
+    }
+    
     void handzeigen()
     {
         
     }
     
     void hinlegen()
+    {
+        
+    }
+    
+    void mischen()
     {
         
     }
