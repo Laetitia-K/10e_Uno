@@ -34,6 +34,9 @@ class SPIEL
 
     VIERZIEHEN vierziehen;
     
+    int karte;
+    
+    
     SPIEL()
     {
         spieler1 = new SPIELER();
@@ -69,15 +72,41 @@ class SPIEL
         
     }
     
-    void hinlegen()
+    
+    void kartelegen()
     {
-        
+        switch (karte)
+      {
+        case '1':
+        //karte an stelle 1 auswärhlen.. usw bei anderen//
+        break;
+        case '2':
+        break;
+        case '3':
+        break;
+        case '4':
+        break;
+        case '5':
+        break;
+        case '6':
+        break;
+        case '7':
+        break;
+        case '8':
+        break;
+        case '9':
+        break;
+          
+        case '0' :  
+        System.out.println("kein Zug möglich? Ziehe eine Karte mit K!");
+        break;
+        }
     }
     
-    void amZug()
+    void kartenehmen()
     {
-        
-        
+      //random karte vom zeihstapel//
+      //ziehstapel -1//
     }
     
     void reihenfolge()

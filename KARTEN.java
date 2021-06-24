@@ -123,6 +123,8 @@ class KARTEN
         gruen8 = new KLASSISCHEKARTEN();  
         gruen9 = new KLASSISCHEKARTEN(); 
         
+        ArrayList<String> Karten = new ArrayList<String>();
+        
         
         
         

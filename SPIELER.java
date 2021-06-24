@@ -22,7 +22,7 @@ class SPIELER
     
     void KartenGeben()
     {
-        
+       System.out.println("test"); 
     }
     
     void spielerhand1()
