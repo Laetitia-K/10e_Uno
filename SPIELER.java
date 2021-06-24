@@ -1,4 +1,7 @@
 
+
+import java.util.Random; 
+
 class SPIELER
 // hand //
 {
@@ -17,7 +20,10 @@ class SPIELER
     }
     
     
-   
+    void KartenGeben()
+    {
+        
+    }
     
     void spielerhand1()
     {

@@ -74,10 +74,22 @@ class SPIEL
         
     }
     
-     void amZug()
+    void amZug()
     {
         
         
+    }
+    
+    void reihenfolge()
+    {
+    }
+    
+    void spielablauf()
+    {
+      //karten geben//
+      System.out.println("Spieler 1 beginnt!");
+      
+      
     }
 }
 
