@@ -1,5 +1,5 @@
 
-class FARBWUNSCH extends KARTEN
+class FARBWUNSCH extends
 {
     
     

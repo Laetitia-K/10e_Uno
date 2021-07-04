@@ -1,4 +1,4 @@
- class VIERZIEHEN extends KARTEN
+ class VIERZIEHEN extends
 {
   VIERZIEHEN()
   {

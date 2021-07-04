@@ -1,8 +1,4 @@
-
-
-
-
-class ZWEIZIEHEN extends KARTEN
+class ZWEIZIEHEN extends 
 {
    
     

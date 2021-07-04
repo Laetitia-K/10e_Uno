@@ -1,8 +1,7 @@
 
-class RICHTUNGSWECHSEL extends KARTEN
+class RICHTUNGSWECHSEL extends 
 {
      
- 
     {
         
         
