@@ -4,7 +4,7 @@ class AUSSETZEN extends CARD
     {
         super(v,c); 
         value= 'a'; 
-        
+       
   
     
     }

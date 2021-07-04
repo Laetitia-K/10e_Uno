@@ -1,8 +1,12 @@
- class VIERZIEHEN extends
+ class VIERZIEHEN extends CARD
 {
-  VIERZIEHEN()
-  {
-      
-  }
- 
+  VIERZIEHEN(char v, String c)
+  {  
+        super(v,c); 
+        value= 'a'; 
+       
+  
+    
+    }
+
 }
