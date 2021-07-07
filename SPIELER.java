@@ -2,7 +2,7 @@
 
 import java.util.Random; 
 
-class SPIELER
+class SPIELER 
 // hand //
 {
     int spieleranzahl = 4;

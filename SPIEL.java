@@ -6,7 +6,8 @@ public class SPIEL
     int pn; // Anzahl der Spieler 
     int cp; // aktueller spieler 
     boolean reversed; //reihenfloge
-    CARD cards [][]; // klammer 1 = welcher spieler 2= wie cielte karte
+    boolean reihenfolge;
+    CARD cards [][]; // klammer 1 = welcher spieler 2= wie vielte karte
     SPIEL(int playernumber) 
     { boolean ok = true; // kann das spiel weitergehen
         pn = playernumber; 
@@ -26,12 +27,15 @@ public class SPIEL
         {Play();}
 
     }
+    
 
     void Play() 
     { boolean b = true; // Checkt ob siegbedingung erfüllt ja = false
         cp = 0; 
         while(b) 
         {  
+            boolean reihenfolge = true;
+            
             if(stack.GetV() == 'v') 
             {Add(4);
                 // Hier muss noch die Farbwahl hin 
@@ -47,10 +51,21 @@ public class SPIEL
             else 
             { cp++; 
             }
+            
             if (cp == 4) 
             {cp = 0;}
             else if (cp == 5) 
             {cp = 1;}
+            
+            if (stack.GetV() == 'r')
+            {
+              reihenfolge = false;
+              if (cp == 1) 
+              {cp = 4;}
+              else if (cp == 0) 
+              {cp = 4;}
+                
+            }
 
             for(int i = 0; i<4; i++) 
             { if(cards[i][0] == null) 
@@ -61,6 +76,7 @@ public class SPIEL
         }
 
     }
+    
 
     void PrintCards() 
     { System.out.println("Player" + cp); 
@@ -76,6 +92,8 @@ public class SPIEL
             {b = false;}
         }
     }
+    
+    
 
     void PlayCards() 
     { char key = GetKeyInput();  // was wurde gedrückt
@@ -187,4 +205,5 @@ public class SPIEL
     CARD GetRnC() // Methode random
     { return null; 
     }
+    
 }
