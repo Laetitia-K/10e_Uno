@@ -43,7 +43,7 @@ public class SPIEL
             if(stack.GetV() == 'z')
             {Add(2);}
             PrintCards(); 
-            PlayCards();
+            KartenSpielen();
             if (stack.GetV() == 'a') 
             { // Also die Aussetzen Karte gelegt
                 cp = cp + 2;
@@ -60,10 +60,10 @@ public class SPIEL
             if (stack.GetV() == 'r')
             {
               reihenfolge = false;
-              if (cp == 1) 
-              {cp = 4;}
-              else if (cp == 0) 
-              {cp = 4;}
+              if (cp == -4) 
+              {cp = 0;}
+              else if (cp == -5) 
+              {cp = -1;}
                 
             }
 
@@ -95,7 +95,7 @@ public class SPIEL
     
     
 
-    void PlayCards() 
+    void KartenSpielen() 
     { char key = GetKeyInput();  // was wurde gedrückt
         boolean b = false; 
         while(b == false)
@@ -169,7 +169,7 @@ public class SPIEL
             return true; 
         }
         else 
-        { System.out.println("unable to place card"); 
+        { System.out.println("du kannst keine Karte legen"); 
             return false; // kann karte nicht legen
         }
 
