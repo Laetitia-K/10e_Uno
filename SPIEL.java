@@ -60,10 +60,10 @@ public class SPIEL
             if (stack.GetV() == 'r')
             {
               reihenfolge = false;
-              if (cp == -4) 
-              {cp = 0;}
-              else if (cp == -5) 
-              {cp = -1;}
+              if (cp == 0) 
+              {cp = 4;}
+              else if (cp == 5 ) 
+              {cp = 1;}
                 
             }
 
