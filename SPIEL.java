@@ -27,7 +27,6 @@ public class SPIEL
         {Play();}
 
     }
-    
 
     void Play() 
     { boolean b = true; // Checkt ob siegbedingung erfüllt ja = false
@@ -35,11 +34,18 @@ public class SPIEL
         while(b) 
         {  
             boolean reihenfolge = true;
-            
+
             if(stack.GetV() == 'v') 
-            {Add(4);
-                // Hier muss noch die Farbwahl hin 
+            {Add(4);  
+                //vierziehen
             }
+            
+            if (stack.GetV() == 'f')
+            {
+                //farbwahl 
+                
+            }
+            
             if(stack.GetV() == 'z')
             {Add(2);}
             PrintCards(); 
@@ -51,20 +57,20 @@ public class SPIEL
             else 
             { cp++; 
             }
-            
+
             if (cp == 4) 
             {cp = 0;}
             else if (cp == 5) 
             {cp = 1;}
-            
+
             if (stack.GetV() == 'r')
             {
-              reihenfolge = false;
-              if (cp == 0) 
-              {cp = 4;}
-              else if (cp == 5 ) 
-              {cp = 1;}
-                
+                reihenfolge = false;
+                if (cp == 0) 
+                {cp = 4;}
+                else if (cp == 5 ) 
+                {cp = 1;}
+
             }
 
             for(int i = 0; i<4; i++) 
@@ -76,7 +82,6 @@ public class SPIEL
         }
 
     }
-    
 
     void PrintCards() 
     { System.out.println("Player" + cp); 
@@ -92,8 +97,7 @@ public class SPIEL
             {b = false;}
         }
     }
-    
-    
+
 
     void KartenSpielen() 
     { char key = GetKeyInput();  // was wurde gedrückt
@@ -205,5 +209,5 @@ public class SPIEL
     CARD GetRnC() // Methode random
     { return null; 
     }
-    
+
 }
